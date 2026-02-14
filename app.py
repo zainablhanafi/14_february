@@ -25,11 +25,7 @@ for i in range (len(df_utilisateurs)):
         "failed_login_attempts" : row["failed_login_attempts"],
         "role" : row["role"],
     }
-    # Debug: Print the dictionary to see what we have
-    print("Dictionary content:")
-    print(dictionnaire_utilisateurs)
-
-   
+    
 authenticator = Authenticate(
     dictionnaire_utilisateurs,  # Les données des comptes
     "cookie name",         # Le nom du cookie, un str quelconque
