@@ -50,7 +50,7 @@ if st.session_state["authentication_status"]:
         st.image("image/30.jpeg")
 
     elif selected == "14 February":
-        st.title("February calls for flowers! Here's my bouquet collection—hope it makes you smile 🙈")
+        st.title("February calls for flowers! Here's my bouquet collection—hope it makes you smile 🐣")
 
 
         col1, col2, col3 = st.columns([1, 2, 1])
